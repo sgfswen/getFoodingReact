@@ -1,3 +1,4 @@
 ﻿{
-    "root" : "build/"
+    "root" : "build/",
+    "clean_urls": true
 }
