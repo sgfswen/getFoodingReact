@@ -21,6 +21,14 @@ const lock = new Auth0Lock(
     auth: {
       redirectUrl: `${window.location.origin}${LOGIN_ROUTE}`,
       responseType: 'token'
+    },
+    theme: {
+      logo: 'https://raw.githubusercontent.com/reactjs/redux/master/logo/logo.png',
+      primaryColor: 'green'
+    },
+    languageDictionary: {
+      emailInputPlaceholder: "something@youremail.com",
+      title: "getFooding"
     }
   }
 );

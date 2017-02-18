@@ -15,7 +15,7 @@ class Site extends Component {
       <div className="Site">
         <div className="Site-header">
           <img src={logo} className="Site-logo" alt="logo" />
-          <h2>Welcome to React + Auth0</h2>
+          <h2>Welcome to React + Auth0 + getFooding!</h2>
           {this.renderUserControls()}
         </div>
         <div className="Site-page">
